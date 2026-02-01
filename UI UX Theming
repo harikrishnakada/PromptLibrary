@@ -1,0 +1,21 @@
+Design a centralized theming system for our Next.js application where all visual design (colors, typography, spacing, shadows, etc.) is defined in one configuration file.  The user can not change the theme or look and feel of the application, only the team may be form the .env or config file i will just mention the theme name and I should be able to switch the theme.
+
+## Design Requirements
+
+Create a complete design system including but not limitted to:
+- **Color Palette**: Primary, secondary, accent, neutrals, semantic colors
+- **Typography Scale**: Font families, sizes, weights, line heights
+- **Spacing System**: Consistent spacing units (4px, 8px, 16px, etc.)
+- **Elevation/Shadows**: Shadow scale for depth hierarchy
+- **Border Radius**: Rounding scale for different contexts
+- **Animation Timing**: Transition durations and easing
+
+Please also review the curernt lay of the pages and application we well. 
+
+## Deliverable
+
+Provide the theme configuration values in a structured format that can be easily swapped out. Include at least 2 complete theme variations preserving the current one  (e.g., "Professional" and "Creative") to demonstrate how changing one variable updates the entire design.
+
+Focus on design decisions and visual consistency, not implementation details.
+
+Use the UI UX designer agent.  If needed you can crawl through other pages for more effeceint result. Avoid funcky design, the themes should be state of the art, corporate look.
